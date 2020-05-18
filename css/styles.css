@@ -1,0 +1,130 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: merriweather;
+}
+
+h1{
+  margin:0 auto;
+  padding-top: 50px;
+  font-family: Sacramento, cursive;
+  font-size: 3.5rem;
+}
+
+h2{
+  margin: 100px auto 0;
+}
+
+h3{
+  margin: 0;
+}
+
+p{
+  line-height: 1.5rem;
+}
+
+ul{
+  list-style: none;
+  padding: 0;
+
+}
+
+li{
+  display: inline-block;
+  font-size: 14px;
+  margin: 10px;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+hr{
+  border: none;
+  border-top: dotted 7px;
+  color: silver;
+  width: 5%;
+}
+
+.top-container {
+  background-color: #e4f9f5;
+  position: relative;
+  padding: 50px;
+}
+.middle-container{
+  background-color: #f0f0e0;
+  padding: 50px 0;
+}
+.bottom-container{
+  padding: 100px;
+  background-color: #d0e1d9;
+}
+
+
+.pro{
+  text-decoration: underline;
+}
+.top-tree{
+  width: 25%;
+  position: absolute;
+  bottom: 10%;
+  right:10%;
+
+}
+.bottom-tree{
+  width: 15%;
+  position: absolute;
+  left: 10%;
+  bottom: 10%;
+}
+
+.mountain{
+  width: 50%;
+  margin-top: 30px;
+}
+
+.intro{
+  width: 50%;
+  margin:auto;
+}
+.profile-picture {
+  width: 35%;
+  margin-top: 30px;
+  border-radius: 100%;
+}
+
+.skill-row{
+  width: 50%;
+  margin:50px auto 100px;
+  background-color: white;
+  padding: 30px;
+  border-radius: 20px;
+}
+
+.skill-row img {
+  width: 20%;
+  border-radius: 100%;
+}
+
+.align-left{
+  text-align: left;
+}
+
+.align-right{
+  text-align: right;
+}
+
+.presentation-img {
+  float: right;
+  margin-left: 5%;
+}
+
+
+.programming-img, .photography-img{
+  float: left;
+  margin-right: 5%;
+}
+.bottom-line{
+  font-size: 10px;
+}
